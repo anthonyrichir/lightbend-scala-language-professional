@@ -4,5 +4,5 @@ class Time(val hours: Int, val minutes: Int) {
 
   val asMinutes: Int = hours * 60 + minutes
 
-  def minus(that: Time): Int = that.asMinutes - this.asMinutes
+  def minus(that: Time): Int = asMinutes - that.asMinutes
 }
