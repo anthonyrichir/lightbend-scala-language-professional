@@ -10,6 +10,8 @@ case class Time(hours: Int = 0, minutes: Int = 0) {
   def minus(that: Time): Int = asMinutes - that.asMinutes
 
   def -(that: Time): Int = minus(that)
+
+  override lazy val toString: String = f"$hours%02d:$minutes%02d"
 }
 
 object Time {
