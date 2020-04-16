@@ -1,6 +1,6 @@
-use-match-expressions
+use-option
 
-# Exercise 21 > Use Match Expressions
+# Exercise 23 > Use Option
 
 In the course video recordings, the instructor uses a `man e` command in the sbt interactive session to display exercise instructions. 
 
